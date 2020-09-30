@@ -111,8 +111,8 @@
 \cb3   \cf5 \strokec5 if\cf4 \strokec4  epoch <= length:\cb1 \
 \cb3     \cf5 \strokec5 return\cf4 \strokec4  epoch * (finish_lr - start_lr)/(length) + start_lr\cb1 \
 \cb3   \cf5 \strokec5 else\cf4 \strokec4 :\cb1 \
-\cb3     lrate = initial_lrate * np.exp(-k*epoch)\cb1 \
-\cb3     \cf5 \strokec5 return\cf4 \strokec4  lrate\cb1 \
+\cb3
+\cb3     \cf5 \strokec5 return\cf4 \strokec4  initial_lrate\cb1 \
 \
 \pard\pardeftab720\sl380\partightenfactor0
 \cf5 \cb3 \strokec5 def\cf4 \strokec4  main():\cb1 \
